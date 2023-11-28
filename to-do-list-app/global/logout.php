@@ -1,0 +1,1 @@
+<!-- handles logout from any page -->
