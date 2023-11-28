@@ -1,0 +1,52 @@
+<!-- login page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Register</title>
+    
+</head>
+<body>
+
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary background_color">
+        <div class="container-fluid">
+            <a class="navbar-brand " href="#">
+                <!-- <img src="./assets/imgs/logo.png" alt="" class="img-fluid" width="100px" height="0px"> -->
+                <h1 class="primary_font">
+                    To Do List
+                    <i class="fa-solid fa-paw"></i>
+                </h1>
+
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <div class="buttons_container">
+                    <button class="btn" id="loginBtn"><a class="nav-link" onclick="">Login</a></button>
+                    <button class="btn" id="signupBtn"><a class="nav-link" onclick="">Sign Up</a></button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--1-2 paragraphs? (mid-left)
+    2 text fields (mid left)
+    1 button (mid left)
+    image (mid-right)-->
+    <div class="container">
+        <div class="left-column buttons_container_login">
+            <!-- Will be on the left side -->
+            <p class="primary_font_login">Register to save your recommendations.</p>
+            <form id="signupForm" method="POST">
+                <input type="email" id="email" name="email" placeholder="Email" required><br>
+                <input type="password" id="password" name="password" placeholder="Password" required><br>
+                <button class="btn" type="submit" >Register</button>
+            </form>
+            <div id="response"></div>
+            <script src=""></script>
+        </div>
+    </div>
+</body>
+</html>
